@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-gpmdp",
+        "command": "atom-gpmdp:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-gpmdp",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-gpmdp:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
